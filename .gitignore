@@ -1,5 +1,4 @@
 .vagrant
 .terraform
-hello-world
 terraform*
 ember/hello-world.zip

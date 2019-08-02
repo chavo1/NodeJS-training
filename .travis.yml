@@ -1,13 +1,11 @@
 language: generic
-dist: xenial
-sudo: required
 script:
 - exit 0
 deploy:
   provider: releases
   api_key:
     secure: OArxog54c/ipxdHCnGZhp7Q4K63TEuW63FhefFAhvxDYNl8rF1dobYkM2gH5Q3RpyPWT8C4/gHTX7asvKNxgFP0qtHrkcmSVAzAqVdqKlf7K4I5I0KGM+o90UpvV+2QU67w3TPgQPDNhjrHNzv7OaRVy9UGRvBmqfrC9EExM6yZ39IDy/SsTNTaWP1L05rGK4QfLAf20S75kDSz3OA9GE8135S37euYgx4rTDv6n4bnXQt5gngL7hbrgkykmxyS+K23WGJo/Xj/hXvOQc7iNNRuEEZEamcZtWvQX9BasFp+yemSWmNOlNe4SEi8okvaujAJ5CulAztDHyal4jYGHxMTVUlGaCC9eNPsAUyYQzwSP3SbMACXkudnK2VDfHeUFpWDiPvfDoh2WiaxMXS+rEiBmJUZbp2QBw96Ps3RhPpfUZqcQ1z7QSneFvfq0t/SCpPqsAPDaApIxL/9CG5vnkOcOzki7lk4VgedRKtWKnNw+OyKu8/jh4tnNnqyeIQTzSCPWgkpxYXdjWduOFWvmzZM7XS3Z48wYZJyVktCHuKm/sb/yx0q0rDl6veuUuHi+b46XH8FQcsvXqkye1KmcmV3+vAnUmWfsC+m/SI6kJ0IjzsXOkNYpIjmbT/DkyJBugm/1kyKxoBbW7RYuD2BJLJnx2VwtSzXtd0PGxnciNI0=
-  file: ember/
+  file: ember/hello-world
   on:
     repo: chavo1/nodejs-training
     tags: true
